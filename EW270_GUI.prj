@@ -1,0 +1,103 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3299293031" file="D:\PostDoc\Code\EW270_GUI\EW270_GUI.prj" location="D:\PostDoc\Code\EW270_GUI" name="EW270_GUI" target="target.mlapps" target-name="Package App">
+    <param.appname>EW270_GUI</param.appname>
+    <param.authnamewatermark>Luke Smith</param.authnamewatermark>
+    <param.email>Luke.Smith.1@warwick.ac.uk</param.email>
+    <param.company>University of Warwick</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>A GUI for an EMAT Pulser</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\u2074082\AppData\Local\Temp\tp18012d93_cb52_408c_8e58_913459044dee.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Instrument Control Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>62</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.1</item>
+      <item>24.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>a30b6acc-c366-4cfb-be51-e7eb57f17269</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\EW270_GUI.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\PostDoc\Code" name="EW270_GUI" optional="false">D:\PostDoc\Code\EW270_GUI</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

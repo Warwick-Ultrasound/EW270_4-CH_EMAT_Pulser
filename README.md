@@ -2,13 +2,11 @@
 
 ## Installation Instructions
 
-1. Install MATLAB Runtime (no license or login required) from [here](https://uk.mathworks.com/products/compiler/matlab-runtime.html).
-2. Extract the zip file (this may take a while).
-3. Open the unzipped folder and run setup.exe.
-4. Accept the license agreement, and click through the rest of the installer. Wait until it is installed before proceeding.
-5. Download EW270_GUI_INSTALLER.exe from this repository and run it.
-6. 
-7. Install the driver for whichever Serial to RS232 adapter you are using. The FTDI one for Windows is [here](https://ftdichip.com/wp-content/uploads/2025/03/CDM2123620_Setup.zip).
+1. Ensure that you have MATLAB installed and an active license. I'm running 2024a.
+2. Install the driver for whichever Serial to RS232 adapter you are using. The FTDI one for Windows is [here](https://ftdichip.com/wp-content/uploads/2025/03/CDM2123620_Setup.zip).
+3. Download all of the files from this repository.
+4. Run EW270_GUI.mlappinstall to install the application
+5. Open MATLAB, ensure that the working directory is NOT the same location as the installer, and go to apps -> EW270_GUI
 
 ## Using the GUI
 
